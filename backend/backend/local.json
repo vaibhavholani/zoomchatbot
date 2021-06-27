@@ -1,0 +1,40 @@
+{
+    "1234681751": {
+        "meetingCode": "a",
+        "meetingId": "1234681751",
+        "meetingName": "My Meeting",
+        "settings": {
+            "announcements": [],
+            "faqs": [],
+            "queueCommands": [],
+            "textCommands": [],
+            "wakeWord": "!"
+        }
+    },
+    "82854043814": {
+        "meetingCode": "NONE",
+        "meetingId": "82854043814",
+        "meetingName": "CSC263",
+        "settings": {
+            "announcements": [],
+            "faqs": [
+                {
+                    "command": "Topic",
+                    "description": "Dr. Vaibhav Holani"
+                }
+            ],
+            "queueCommands": [],
+            "textCommands": [
+                {
+                    "command": "prof",
+                    "description": "Dr. Vaibhav Holani"
+                },
+                {
+                    "command": "try",
+                    "description": "try"
+                }
+            ],
+            "wakeWord": "!"
+        }
+    }
+}

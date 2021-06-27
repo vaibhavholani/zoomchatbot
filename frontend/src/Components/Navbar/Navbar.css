@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+  --navbar-color-1: #278DFF;
+  --navbar-color-2: #4888F6;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar {
+    background: linear-gradient(90deg, var(--navbar-color-1) 0%, var(--navbar-color-2) 100%);
+    height: 80px;
+    margin: auto;
+    display: flex;
+    font-size: 1.2rem;
+    animation: left-to-right 5s ease-in infinite alternate;
+  }
+
+@keyframes left-to-right {
+   0% {
+    background: var(--navbar-color-1);
+  }
+  
+  100% {
+    background: var(--navbar-color-2);
+   }
+}
+  
+  .navbar-logo {
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .fa-firstdraft {
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+  }
+  
+  .nav-menu {
+    display: flex;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-out;
+  }
+  
+  .nav-links:hover {
+    background-color: rgba(242, 242, 242, 0.5);
+    border-radius: 4px;
+  }
+  
+  .fa-bars {
+    color: #fff;
+  }
+

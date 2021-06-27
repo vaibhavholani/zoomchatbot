@@ -1,0 +1,11 @@
+
+:root {
+    --meeting-border: #4888F6;
+}
+
+.meeting-fieldset {
+    display: inline;
+    padding: 1em;
+    border: 1px solid var(--meeting-border);
+    border-radius: 1em;
+}
