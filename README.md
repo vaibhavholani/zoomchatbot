@@ -26,3 +26,5 @@ Possibly releasing a packaged version with user profile management to make life 
 [Sannat Bhasin](https://github.com/sannat17)
 
 [Vaibhav Holani](https://github.com/vaibhavholani)
+
+for Sigmahacks 2021
