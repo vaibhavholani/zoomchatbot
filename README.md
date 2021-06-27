@@ -21,5 +21,7 @@ Possibly releasing a packaged version with user profile management to make life 
 
 Made by,
 [Rohan Agarwal](https://github.com/ronyboi)
+
 [Sannat Bhasin](https://github.com/sannat17)
+
 [Vaibhav Holani](https://github.com/vaibhavholani)
