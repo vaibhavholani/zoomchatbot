@@ -20,6 +20,7 @@ We learnt a lot about browser automation with Selenium and managing cookie stora
 Possibly releasing a packaged version with user profile management to make life easier for those who regularly host zoom meetings (be it for business or studies). We would also like to expand the functionality to further emulate the range and versatility of a Discord bot.
 
 Made by,
+
 [Rohan Agarwal](https://github.com/ronyboi)
 
 [Sannat Bhasin](https://github.com/sannat17)
